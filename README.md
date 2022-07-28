@@ -9,6 +9,9 @@ Create file "database.sqlite" in "database/" directory
 
 run: php artisan migrate --seed
 
+## Generate Passport
+run: php artisan passport:install
+or run: php artisan passport:install --force
 
 ## Start server
 run: php -S localhost:8002 -t public
